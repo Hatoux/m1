@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+	"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+<title>bibli_fonction.html</title>
+
+</head>
+
+<body>
+
+<h1 id="lien-entre-bibliotheques-et-fonctions">Lien entre bibliotheques et fonctions</h1>
+<ul>
+<li>&lt;unistd.h&gt;
+<ul>
+<li>pid_t fork(void)</li>
+<li>pid_t getpid(void)</li>
+<li>pid_t getppid(void)</li>
+<li>uid_t getuid(void) : retourne l'uid reel</li>
+<li>uid_t geteuid(void) : retourne l'uid effectif du processus appelant</li>
+</ul></li>
+<li>&lt;errno.h&gt;
+<ul>
+<li>errno : variable globale qui contient le code d'erreur produit lors de l'execution du programme</li>
+</ul></li>
+<li>&lt;sys/types.h&gt;
+<ul>
+<li>uid_t : correspond a un unsigned int =&gt; %u pour affichage</li>
+</ul></li>
+</ul>
+
+</body>
+</html>
